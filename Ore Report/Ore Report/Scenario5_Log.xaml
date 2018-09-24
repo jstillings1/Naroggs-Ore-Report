@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Ore_Report.Scenario5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ore_Report"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="833.285">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="Instuctions" HorizontalAlignment="Left" Margin="3.144,-1.343,0,0" TextWrapping="Wrap" Text="This will connect and listen to a UDP port and dump what it sees to a .txt file of your choice." VerticalAlignment="Top" Height="120.586" RenderTransformOrigin="0.5,0.5" Width="805.467" FontSize="36" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.033"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="Port" HorizontalAlignment="Left" Margin="9,162,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" PlaceholderText="Port to listen to"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,120,0,0" TextWrapping="Wrap" Text="Port to connect" VerticalAlignment="Top"/>
+        <Button x:Name="Listen" Content="Listen" HorizontalAlignment="Left" Margin="719,162,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.887,0.143" Click="Listen_Click"/>
+        <TextBlock x:Name="Output" HorizontalAlignment="Left" Margin="6,205,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="484" Width="484"/>
+        <ComboBox x:Name="AdapterList" HorizontalAlignment="Left" Margin="627,155,0,0" VerticalAlignment="Top" Width="76" SelectionChanged="AdapterList_SelectionChanged" Height="44" DropDownOpened="AdapterList_DropDownOpened"/>
+        <TextBox x:Name="HostNameForConnect" HorizontalAlignment="Left" Margin="147,154,0,0" TextWrapping="Wrap" Text="IP we are connecting to" VerticalAlignment="Top" Width="479" Height="50" />
+
+    </Grid>
+</Page>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <AllowLocalNetworkLoopback>true</AllowLocalNetworkLoopback>
+    <UseEmulator>false</UseEmulator>
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <CreateCleanLayout>false</CreateCleanLayout>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Source>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</Source>
+    <SmallTileSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</SmallTileSource>
+    <MediumTileSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</MediumTileSource>
+    <WideTileSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</WideTileSource>
+    <LargeTileSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</LargeTileSource>
+    <AppIconSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</AppIconSource>
+    <SplashScreenSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\Medium Tile.png</PackageLogoSource>
+    <BadgeLogoSource>C:\Users\jstil\OneDrive\Websites\Ore Report\ore.report\ore.png</BadgeLogoSource>
+  </PropertyGroup>
+</Project>
