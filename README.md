@@ -1,0 +1,1 @@
+# Naroggs Ore Report
